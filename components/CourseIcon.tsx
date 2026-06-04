@@ -1,3 +1,4 @@
+import React from "react";
 import * as Icons from "lucide-react";
 
 interface CourseIconProps {
@@ -5,7 +6,7 @@ interface CourseIconProps {
 }
 
 export default function CourseIcon({ name }: CourseIconProps) {
-  const Icon = Icons[name as keyof typeof Icons];
+  const Icon = Icons[name as keyof typeof Icons] as React.ElementType;
 
   if (!Icon) {
     return <Icons.BookOpen size={24} />;
