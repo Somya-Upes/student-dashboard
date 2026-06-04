@@ -1,5 +1,7 @@
 # Student Dashboard
 
+🚀 **Live Demo:** [https://student-dashboard-h4wx.vercel.app](https://student-dashboard-h4wx.vercel.app)
+
 A modern, responsive Student Dashboard built with [Next.js](https://nextjs.org), [React](https://react.dev), and [Tailwind CSS](https://tailwindcss.com). It leverages [Supabase](https://supabase.com) as the backend database and authentication service.
 
 ## Architectural Choices
