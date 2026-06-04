@@ -5,7 +5,7 @@ interface CourseIconProps {
 }
 
 export default function CourseIcon({ name }: CourseIconProps) {
-  const Icon = (Icons as any)[name];
+  const Icon = Icons[name as keyof typeof Icons];
 
   if (!Icon) {
     return <Icons.BookOpen size={24} />;
